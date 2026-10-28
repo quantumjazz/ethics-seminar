@@ -1,0 +1,201 @@
+---
+pagetitle: "Етиката като равновесие"
+author: "доц. д-р Виктор Аврамов"
+lang: bg
+format:
+  revealjs:
+    theme: [default, etika.scss]
+    css: fonts.css
+    width: 1920
+    height: 1080
+    margin: 0
+    center: false
+    hash: true
+    slide-number: c/t
+    controls: false
+    progress: true
+    menu: false
+    transition: fade
+    transition-speed: fast
+    background-transition: fade
+    pdf-separate-fragments: false
+    embed-resources: true
+    include-in-header:
+      text: |
+        <style>
+        /* Стилове за петте слайда (допълват etika.scss) */
+        .reveal .lede { display: block; font-size: 36px; line-height: 1.35; color: #4A5568; margin: -16px 0 32px; max-width: 1580px; }
+        .reveal .test-grid { display: grid; grid-template-columns: 1fr 600px; gap: 72px; align-items: stretch; }
+        .reveal .qlist { border-top: 4px solid #14213D; }
+        .reveal .qlist p { display: grid; grid-template-columns: 72px 1fr; align-items: baseline; padding: 22px 0; border-bottom: 2px solid #DCD2C0; }
+        .reveal .qlist .qn { font-family: "EB Garamond", Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1; color: #8F5414; }
+        .reveal .qlist .qt { font-size: 40px; font-weight: 600; line-height: 1.2; color: #14213D; }
+        .reveal .evi { background: #E0A33A; border-radius: 22px; padding: 32px 40px; display: flex; flex-direction: column; gap: 10px; }
+        .reveal .evi .evi-k { font-size: 24px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #14213D; }
+        .reveal .evi .evi-nums { display: flex; align-items: center; gap: 22px; font-family: "EB Garamond", Georgia, serif; font-size: 96px; font-weight: 600; line-height: 1; color: #14213D; }
+        .reveal .evi .evi-cap { font-size: 28px; line-height: 1.35; color: #14213D; }
+        .reveal .evi .evi-lesson { font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 36px; line-height: 1.2; color: #14213D; margin-top: auto; }
+        .reveal .verdict.test-verdict { margin-top: 32px; padding: 28px 48px; }
+        .reveal .verdict.test-verdict p { font-size: 44px; }
+        .reveal .ledger.tight .lrow > p { grid-template-columns: 64px 520px 1fr; column-gap: 36px; padding: 14px 0; }
+        .reveal .ledger.tight .lnum { font-size: 44px; }
+        .reveal .ledger.tight .ltitle { font-size: 34px; }
+        .reveal .ledger.tight .ldesc { font-size: 30px; line-height: 1.35; }
+        .reveal .diag { margin: -20px 0 24px; background: #FFFDF8; border: 2px solid #DCD2C0; border-left: 8px solid #E0A33A; border-radius: 0 16px 16px 0; padding: 16px 28px; }
+        .reveal .diag p { font-size: 28px; line-height: 1.35; color: #14213D; }
+        .reveal .road .card { gap: 14px; }
+        .reveal .road .when { display: block; font-size: 24px; font-weight: 700; line-height: 1.2; letter-spacing: 0.12em; text-transform: uppercase; color: #8F5414; }
+        .reveal .road ul { display: block; margin: 8px 0 0; padding-left: 1.1em; }
+        .reveal .road li { font-size: 30px; line-height: 1.35; color: #4A5568; margin-bottom: 14px; }
+        .reveal .road li::marker { color: #8F5414; }
+        .reveal .road-end { display: flex; justify-content: space-between; align-items: baseline; margin-top: 48px; }
+        .reveal .road-end .thanks { margin-top: 0; }
+        .reveal .road-end .who-end { font-size: 26px; color: #C9D3E3; }
+        </style>
+---
+
+## {.cover .dark background-color="#14213D"}
+
+::::: {.stage}
+[Общоуниверситетски семинар „Етичните правила в НБУ“ · 28 октомври 2026]{.eyebrow}
+
+:::: {.cover-grid}
+::: {.cover-text}
+[Етиката като равновесие]{.cover-title}
+
+[Практически идеи за Етичния кодекс и Статута на Комисията по етика]{.cover-sub}
+:::
+
+```{=html}
+<div class="cover-motif">
+  <div class="matrix" role="img" aria-label="Матрица 2 на 2: аз спазвам или нарушавам срещу другите спазват или нарушават; отбелязано е полето „спазвам – спазват“">
+    <div class="mx-h"></div>
+    <div class="mx-h">другите<br><b>спазват</b></div>
+    <div class="mx-h">другите<br><b>нарушават</b></div>
+    <div class="mx-r">аз<br><b>спазвам</b></div>
+    <div class="mx-c eq"><svg width="104" height="104" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#14213D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="mx-c"></div>
+    <div class="mx-r">аз<br><b>нарушавам</b></div>
+    <div class="mx-c"></div>
+    <div class="mx-c"></div>
+  </div>
+  <p class="mx-cap">Целта: „всички спазват“ да бъде равновесие – т.е. да бъде стратегията, която е най-добър отговор на стратегиите на останалите.</p>
+</div>
+```
+::::
+
+::: {.cover-by}
+[доц. д-р Виктор Аврамов]{.who}
+
+[департамент „Администрация и управление“ · Нов български университет]{.dept}
+:::
+:::::
+
+## [Принципът · (Binmore)]{.eyebrow} Тест за правилата в етичния кодекс
+
+[Правилата се спазват трайно, когато всеки има интерес да ги спазва, знаейки, че и другите ги спазват.]{.lede}
+
+:::: {.test-grid}
+::: {.qlist}
+[1]{.qn} [Кой печели, ако я наруши?]{.qt}
+
+[2]{.qn} [Как ще бъде установено нарушението?]{.qt}
+
+[3]{.qn} [Кой има интерес да реагира?]{.qt}
+:::
+
+```{=html}
+<div class="evi">
+  <p class="evi-k">Пример от НБУ · курс BUBB400</p>
+  <div class="evi-nums"><span>29%</span><svg width="84" height="48" viewBox="0 0 84 48" aria-hidden="true"><path d="M4 24 H74 M58 8 L76 24 L58 40" fill="none" stroke="#14213D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>1%</span></div>
+  <p class="evi-cap">дял на оценката 5,50 преди и след въвеждането на правила за присъствено оценяване</p>
+  <p class="evi-lesson">Промяна в механизма, не призив.</p>
+</div>
+```
+::::
+
+::: {.verdict .test-verdict}
+Правило, която не издържа теста, наказва само честните.
+:::
+
+## [I · Етичният кодекс]{.eyebrow} Пет принципа
+
+:::: {.ledger .tight}
+::: {.lrow}
+[1]{.lnum} [Отговорно авторство]{.ltitle} [вместо „самостоятелно“: който подписва, отговаря за цялото съдържание и декларира съществената помощ]{.ldesc}
+:::
+
+::: {.lrow}
+[2]{.lnum} [Обща част за всички роли]{.ltitle} [авторство, конфликт на интереси, лични данни, достойнство – еднакво за всички, включително ръководството]{.ldesc}
+:::
+
+::: {.lrow}
+[3]{.lnum} [Защита на критиката]{.ltitle} [добросъвестната критика и сигналите не нарушават задължението да пазим доброто име на НБУ]{.ldesc}
+:::
+
+::: {.lrow}
+[4]{.lnum} [Защита на по-слабата страна]{.ltitle} [смяна на научния ръководител без последици, авторство, договорено предварително, срокове в процедурите]{.ldesc}
+:::
+
+::: {.lrow}
+[5]{.lnum} [Технологична неутралност]{.ltitle} [правилата за ИИ остават отделни документи, към които Кодексът препраща]{.ldesc}
+:::
+::::
+
+## [II · Комисията по етика]{.eyebrow} Пет промени в Статута на Комисията
+
+:::: {.ledger .tight}
+::: {.lrow}
+[1]{.lnum} [Независимост]{.ltitle} [номинации от Академичния и Студентския съвет, фиксиран мандат, отводи, външен член при случаи с ръководители]{.ldesc}
+:::
+
+::: {.lrow}
+[2]{.lnum} [„Изпълни или обясни“]{.ltitle} [писмен мотивиран отговор на всяка препоръка в срок; отчет и анонимизиран сборник в годишния доклад]{.ldesc}
+:::
+
+::: {.lrow}
+[3]{.lnum} [Две процедури]{.ltitle} [медиация при междуличностни конфликти, проверка за нарушения на академичната почтеност]{.ldesc}
+:::
+
+::: {.lrow}
+[4]{.lnum} [Процесуални гаранции]{.ltitle} [изслушване, достъп до доказателствата, срокове, стандарт на доказване, обжалване]{.ldesc}
+:::
+
+::: {.lrow}
+[5]{.lnum} [Ясна компетентност]{.ltitle} [право на самосезиране; сигналите извън компетентността – към компетентния орган]{.ldesc}
+:::
+::::
+
+## [Какво може да се направи веднага]{.eyebrow} Следващи стъпки {.road .dark background-color="#14213D"}
+
+:::: {.cards3}
+::: {.card}
+[Бързи стъпки]{.card-title}
+
+- писмен отговор на всяка препоръка на Комисията
+- анонимизиран сборник от досегашните решения
+- препращане на сигналите извън компетентността
+:::
+
+::: {.card}
+[Нови правила]{.card-title}
+
+- работна група с участие на студенти и докторанти
+- проекти за нови правила, проверени с теста на трите въпроса
+- приемане от Настоятелството и Академичния съвет
+:::
+
+::: {.card}
+[Прилагане]{.card-title}
+
+- влизане в сила без обратно действие
+- първи годишен доклад по новия формат
+- преглед на правилата след една година
+:::
+::::
+
+::: {.road-end}
+[Благодаря за вниманието!]{.thanks}
+
+[доц. д-р Виктор Аврамов]{.who-end}
+:::

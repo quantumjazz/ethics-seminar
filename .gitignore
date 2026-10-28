@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+
+# Quarto
+.quarto/
+*_files/
+
+# Local settings (never in git)
+.claude/
