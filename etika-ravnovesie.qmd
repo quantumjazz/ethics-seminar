@@ -12,6 +12,8 @@ format:
     center: false
     hash: true
     slide-number: c/t
+    scroll-view:
+      activation-width: 0
     controls: false
     progress: true
     menu: false
@@ -97,7 +99,7 @@ format:
 
 :::: {.test-grid}
 ::: {.qlist}
-[1]{.qn} [Кой печели, ако я наруши?]{.qt}
+[1]{.qn} [Кой печели, ако го наруши?]{.qt}
 
 [2]{.qn} [Как ще бъде установено нарушението?]{.qt}
 
@@ -115,7 +117,7 @@ format:
 ::::
 
 ::: {.verdict .test-verdict}
-Правило, която не издържа теста, наказва само честните.
+Правило, което не издържа теста, наказва само честните.
 :::
 
 ## [I · Етичният кодекс]{.eyebrow} Пет принципа
